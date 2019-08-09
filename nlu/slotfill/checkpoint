@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Volumes/Data/Work/Projects/deeppavlov-restaurants/slotfill/model"
+all_model_checkpoint_paths: "/Volumes/Data/Work/Projects/deeppavlov-restaurants/slotfill/model"

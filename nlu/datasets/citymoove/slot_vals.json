@@ -1,0 +1,1064 @@
+{
+    "food": {
+        "dontcare": [
+            "any food",
+            "any kind",
+            "any type of food",
+            "any type",
+            "dontcare"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/americanrestaurant": [
+            "american",
+            "west american",
+            "north american"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/argentinian": [
+            "argentinian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/fusion": [
+            "fusion"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/persian": [
+            "persian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/caribbean": [
+            "carraibean",
+            "carribean",
+            "caribbean"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/kosher": [
+            "kosher"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/tuscan": [
+            "tuscan"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/frenchrestaurant": [
+            "french"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/mexican": [
+            "mexican"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/japanese": [
+            "japanese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/thai": [
+            "tailand",
+            "thai"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/bistro": [
+            "bistro"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/swedish": [
+            "swedish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/lebanese": [
+            "lebanese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/indonesian": [
+            "endonesian",
+            "indonesian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/halal": [
+            "halal"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/crossover": [
+            "class over",
+            "cross over",
+            "crossover"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/chinese": [
+            "chinses",
+            "chineese",
+            "chinese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/british": [
+            "british"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/austrian": [
+            "austrian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/greekrestaurant": [
+            "greek"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/vietnameserestaurant": [
+            "vietnam",
+            "vietnamese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/italianrestaurant": [
+            "itailian",
+            "italian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/indianrestaurant": [
+            "india",
+            "indian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/welsh": [
+            "welsh"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/gastropub": [
+            "gastro pub",
+            "gastropub"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/australian": [
+            "australian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/brazilian": [
+            "brazilian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/cuban": [
+            "cuban"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/moroccan": [
+            "moroccon",
+            "moroccan"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/korean": [
+            "korea",
+            "korean"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/english": [
+            "english"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/world": [
+            "world"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/irish": [
+            "irish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/swiss": [
+            "swiss"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/moderneuropean": [
+            "modern europane",
+            "modern europone",
+            "modern euorpean",
+            "modern european"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/turkish": [
+            "turkiesh",
+            "turkish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/russian": [
+            "russian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/catalan": [
+            "catalin",
+            "kitalian",
+            "catalanian",
+            "catalonian",
+            "katalian",
+            "catalan"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/polynesian": [
+            "polynesian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/cantonese": [
+            "cantonates",
+            "cantonales",
+            "cantonese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/barbeque": [
+            "barbecue",
+            "barbeque"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/scottish": [
+            "scottish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/portuguese": [
+            "portugeuse",
+            "portugese",
+            "portuguese"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/german": [
+            "german"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/afghan": [
+            "afghan"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/vegetarian": [
+            "vegetarian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/jamaican": [
+            "jamcian",
+            "jamian",
+            "jamaican"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/australasian": [
+            "australian asian",
+            "austria asian",
+            "australasian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/venetian": [
+            "venetian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/hungarian": [
+            "hungarian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/belgian": [
+            "belgium",
+            "belgian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/asianoriental": [
+            "asian ori",
+            "asian",
+            "oriental",
+            "asian oriental"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/basque": [
+            "bask",
+            "basque"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/international": [
+            "international"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/corsica": [
+            "corsica"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/canapes": [
+            "canope",
+            "canopy",
+            "canapes"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/traditional": [
+            "traditional"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/creative": [
+            "creative"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/malaysian": [
+            "malaysian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/polish": [
+            "polish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/european": [
+            "european",
+            "european"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/eritrean": [
+            "airatarin",
+            "airitran",
+            "air tran",
+            "airitran",
+            "eartrain",
+            "earatrain",
+            "arotrian",
+            "airtran",
+            "eirtrean",
+            "eritrean"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/scandinavian": [
+            "scandanavian",
+            "scandanavian",
+            "scandinavian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/christmas": [
+            "christmas"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/unusual": [
+            "unusual"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/singaporean": [
+            "signaporian",
+            "signapore",
+            "singapore",
+            "singaporean"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/steakhouse": [
+            "steak house",
+            "steak",
+            "steakhouse"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/african": [
+            "african"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/danish": [
+            "danish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/spanish": [
+            "spanish"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/seafood": [
+            "sea food",
+            "seafood"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/romanian": [
+            "romanian"
+        ],
+        "http://data.linkedevents.org/kos/3cixty/mediterranean": [
+            "medterranean",
+            "mediterranean"
+        ]
+    },
+    "pricerange": {
+        "moderate": [
+            "moderately",
+            "medium",
+            "moderat",
+            "moderately",
+            "derately",
+            "modreately",
+            "moderate"
+        ],
+        "expensive": [
+            "high priced",
+            "expensive"
+        ],
+        "cheap": [
+            "cheap"
+        ],
+        "dontcare": [
+            "any price",
+            "i dont care about the price",
+            "i dont care about price",
+            "any range is fine",
+            "any range",
+            "dontcare"
+        ]
+    },
+    "area": {
+        "dontcare": [
+            "any city",
+            "any address",
+            "anywhere",
+            "any where",
+            "any area",
+            "dontcare"
+        ],
+        "seillans": [
+            "seillans"
+        ],
+        "aiglun": [
+            "aiglun"
+        ],
+        "amirat": [
+            "amirat"
+        ],
+        "andon": [
+            "andon"
+        ],
+        "antibes": [
+            "antibes"
+        ],
+        "ascros": [
+            "ascros"
+        ],
+        "aspremont": [
+            "aspremont"
+        ],
+        "aups": [
+            "aups"
+        ],
+        "auribeau-sur-siagne": [
+            "auribeau-sur-siagne"
+        ],
+        "auvare": [
+            "auvare"
+        ],
+        "bagnols-en-forêt": [
+            "bagnols-en-forêt"
+        ],
+        "bairols": [
+            "bairols"
+        ],
+        "bargemon": [
+            "bargemon"
+        ],
+        "beaulieu-sur-mer": [
+            "beaulieu-sur-mer"
+        ],
+        "beausoleil": [
+            "beausoleil"
+        ],
+        "belvédère": [
+            "belvédère"
+        ],
+        "bendejun": [
+            "bendejun"
+        ],
+        "berre-les-alpes": [
+            "berre-les-alpes"
+        ],
+        "beuil": [
+            "beuil"
+        ],
+        "biot": [
+            "biot"
+        ],
+        "blausasc": [
+            "blausasc"
+        ],
+        "bonson": [
+            "bonson"
+        ],
+        "bormes-les-mimosas": [
+            "bormes-les-mimosas"
+        ],
+        "bouyon": [
+            "bouyon"
+        ],
+        "breil-sur-roya": [
+            "breil-sur-roya"
+        ],
+        "briançonnet": [
+            "briançonnet"
+        ],
+        "bézaudun-les-alpes": [
+            "bézaudun-les-alpes"
+        ],
+        "cabris": [
+            "cabris"
+        ],
+        "cagnes-sur-mer": [
+            "cagnes-sur-mer"
+        ],
+        "caille": [
+            "caille"
+        ],
+        "callas": [
+            "callas"
+        ],
+        "callian": [
+            "callian"
+        ],
+        "cannes": [
+            "cannes"
+        ],
+        "cantaron": [
+            "cantaron"
+        ],
+        "cap-d'ail": [
+            "cap-d'ail"
+        ],
+        "carros": [
+            "carros"
+        ],
+        "castagniers": [
+            "castagniers"
+        ],
+        "castellar": [
+            "castellar"
+        ],
+        "castillon": [
+            "castillon"
+        ],
+        "caussols": [
+            "caussols"
+        ],
+        "cavalaire-sur-mer": [
+            "cavalaire-sur-mer"
+        ],
+        "châteaudouble": [
+            "châteaudouble"
+        ],
+        "châteauneuf-grasse": [
+            "châteauneuf-grasse"
+        ],
+        "châteauneuf-villevieille": [
+            "châteauneuf-villevieille"
+        ],
+        "châteauneuf-d'entraunes": [
+            "châteauneuf-d'entraunes"
+        ],
+        "cipières": [
+            "cipières"
+        ],
+        "clans": [
+            "clans"
+        ],
+        "claviers": [
+            "claviers"
+        ],
+        "coaraze": [
+            "coaraze"
+        ],
+        "cogolin": [
+            "cogolin"
+        ],
+        "collobrières": [
+            "collobrières"
+        ],
+        "collongues": [
+            "collongues"
+        ],
+        "colomars": [
+            "colomars"
+        ],
+        "conségudes": [
+            "conségudes"
+        ],
+        "contes": [
+            "contes"
+        ],
+        "cotignac": [
+            "cotignac"
+        ],
+        "courmes": [
+            "courmes"
+        ],
+        "coursegoules": [
+            "coursegoules"
+        ],
+        "cuébris": [
+            "cuébris"
+        ],
+        "daluis": [
+            "daluis"
+        ],
+        "draguignan": [
+            "draguignan"
+        ],
+        "drap": [
+            "drap"
+        ],
+        "duranus": [
+            "duranus"
+        ],
+        "entraunes": [
+            "entraunes"
+        ],
+        "entrecasteaux": [
+            "entrecasteaux"
+        ],
+        "escragnolles": [
+            "escragnolles"
+        ],
+        "falicon": [
+            "falicon"
+        ],
+        "fayence": [
+            "fayence"
+        ],
+        "figanières": [
+            "figanières"
+        ],
+        "flayosc": [
+            "flayosc"
+        ],
+        "fontan": [
+            "fontan"
+        ],
+        "fréjus": [
+            "fréjus"
+        ],
+        "gars": [
+            "gars"
+        ],
+        "gassin": [
+            "gassin"
+        ],
+        "gattières": [
+            "gattières"
+        ],
+        "gilette": [
+            "gilette"
+        ],
+        "gonfaron": [
+            "gonfaron"
+        ],
+        "gorbio": [
+            "gorbio"
+        ],
+        "gourdon": [
+            "gourdon"
+        ],
+        "grasse": [
+            "grasse"
+        ],
+        "grimaud": [
+            "grimaud"
+        ],
+        "gréolières": [
+            "gréolières"
+        ],
+        "guillaumes": [
+            "guillaumes"
+        ],
+        "hyères": [
+            "hyères"
+        ],
+        "ilonse": [
+            "ilonse"
+        ],
+        "isola": [
+            "isola"
+        ],
+        "l'escarène": [
+            "l'escarène"
+        ],
+        "la bollène-vésubie": [
+            "la bollène-vésubie"
+        ],
+        "la brigue": [
+            "la brigue"
+        ],
+        "la colle-sur-loup": [
+            "la colle-sur-loup"
+        ],
+        "la croix-valmer": [
+            "la croix-valmer"
+        ],
+        "la croix-sur-roudoule": [
+            "la croix-sur-roudoule"
+        ],
+        "la garde-freinet": [
+            "la garde-freinet"
+        ],
+        "la gaude": [
+            "la gaude"
+        ],
+        "la londe-les-maures": [
+            "la londe-les-maures"
+        ],
+        "la môle": [
+            "la môle"
+        ],
+        "la penne": [
+            "la penne"
+        ],
+        "la roque-esclapon": [
+            "la roque-esclapon"
+        ],
+        "la roquette-sur-siagne": [
+            "la roquette-sur-siagne"
+        ],
+        "la roquette-sur-var": [
+            "la roquette-sur-var"
+        ],
+        "la tour": [
+            "la tour"
+        ],
+        "la trinité": [
+            "la trinité"
+        ],
+        "la turbie": [
+            "la turbie"
+        ],
+        "lantosque": [
+            "lantosque"
+        ],
+        "le bar-sur-loup": [
+            "le bar-sur-loup"
+        ],
+        "le broc": [
+            "le broc"
+        ],
+        "le cannet": [
+            "le cannet"
+        ],
+        "le cannet-des-maures": [
+            "le cannet-des-maures"
+        ],
+        "le lavandou": [
+            "le lavandou"
+        ],
+        "le luc": [
+            "le luc"
+        ],
+        "le mas": [
+            "le mas"
+        ],
+        "le muy": [
+            "le muy"
+        ],
+        "le plan-de-la-tour": [
+            "le plan-de-la-tour"
+        ],
+        "le rouret": [
+            "le rouret"
+        ],
+        "le thoronet": [
+            "le thoronet"
+        ],
+        "le tignet": [
+            "le tignet"
+        ],
+        "les adrets-de-l'estérel": [
+            "les adrets-de-l'estérel"
+        ],
+        "les arcs": [
+            "les arcs"
+        ],
+        "les ferres": [
+            "les ferres"
+        ],
+        "les mayons": [
+            "les mayons"
+        ],
+        "les mujouls": [
+            "les mujouls"
+        ],
+        "levens": [
+            "levens"
+        ],
+        "lieuche": [
+            "lieuche"
+        ],
+        "lorgues": [
+            "lorgues"
+        ],
+        "lucéram": [
+            "lucéram"
+        ],
+        "malaussène": [
+            "malaussène"
+        ],
+        "mandelieu-la-napoule": [
+            "mandelieu-la-napoule"
+        ],
+        "marie": [
+            "marie"
+        ],
+        "massoins": [
+            "massoins"
+        ],
+        "menton": [
+            "menton"
+        ],
+        "monaco": [
+            "monaco"
+        ],
+        "mons": [
+            "mons"
+        ],
+        "montauroux": [
+            "montauroux"
+        ],
+        "montferrat": [
+            "montferrat"
+        ],
+        "mouans-sartoux": [
+            "mouans-sartoux"
+        ],
+        "mougins": [
+            "mougins"
+        ],
+        "moulinet": [
+            "moulinet"
+        ],
+        "nice": [
+            "nice"
+        ],
+        "opio": [
+            "opio"
+        ],
+        "peille": [
+            "peille"
+        ],
+        "peillon": [
+            "peillon"
+        ],
+        "peymeinade": [
+            "peymeinade"
+        ],
+        "pierlas": [
+            "pierlas"
+        ],
+        "pierrefeu": [
+            "pierrefeu"
+        ],
+        "puget-rostang": [
+            "puget-rostang"
+        ],
+        "puget-théniers": [
+            "puget-théniers"
+        ],
+        "puget-sur-argens": [
+            "puget-sur-argens"
+        ],
+        "pégomas": [
+            "pégomas"
+        ],
+        "péone": [
+            "péone"
+        ],
+        "ramatuelle": [
+            "ramatuelle"
+        ],
+        "rayol-canadel-sur-mer": [
+            "rayol-canadel-sur-mer"
+        ],
+        "revest-les-roches": [
+            "revest-les-roches"
+        ],
+        "rigaud": [
+            "rigaud"
+        ],
+        "rimplas": [
+            "rimplas"
+        ],
+        "roquebillière": [
+            "roquebillière"
+        ],
+        "roquebrune-cap-martin": [
+            "roquebrune-cap-martin"
+        ],
+        "roquebrune-sur-argens": [
+            "roquebrune-sur-argens"
+        ],
+        "roquefort-les-pins": [
+            "roquefort-les-pins"
+        ],
+        "roquestéron": [
+            "roquestéron"
+        ],
+        "la roque-en-provence": [
+            "la roque-en-provence"
+        ],
+        "roubion": [
+            "roubion"
+        ],
+        "roure": [
+            "roure"
+        ],
+        "saint-andré-de-la-roche": [
+            "saint-andré-de-la-roche"
+        ],
+        "saint-antonin": [
+            "saint-antonin"
+        ],
+        "saint-antonin-du-var": [
+            "saint-antonin-du-var"
+        ],
+        "saint-auban": [
+            "saint-auban"
+        ],
+        "saint-blaise": [
+            "saint-blaise"
+        ],
+        "saint-cézaire-sur-siagne": [
+            "saint-cézaire-sur-siagne"
+        ],
+        "saint-dalmas-le-selvage": [
+            "saint-dalmas-le-selvage"
+        ],
+        "saint-jean-cap-ferrat": [
+            "saint-jean-cap-ferrat"
+        ],
+        "saint-jeannet": [
+            "saint-jeannet"
+        ],
+        "saint-laurent-du-var": [
+            "saint-laurent-du-var"
+        ],
+        "saint-léger": [
+            "saint-léger"
+        ],
+        "saint-martin-vésubie": [
+            "saint-martin-vésubie"
+        ],
+        "saint-martin-d'entraunes": [
+            "saint-martin-d'entraunes"
+        ],
+        "saint-martin-du-var": [
+            "saint-martin-du-var"
+        ],
+        "saint-paul-de-vence": [
+            "saint-paul-de-vence"
+        ],
+        "saint-paul-en-forêt": [
+            "saint-paul-en-forêt"
+        ],
+        "saint-raphaël": [
+            "saint-raphaël"
+        ],
+        "saint-sauveur-sur-tinée": [
+            "saint-sauveur-sur-tinée"
+        ],
+        "saint-tropez": [
+            "saint-tropez"
+        ],
+        "saint-vallier-de-thiey": [
+            "saint-vallier-de-thiey"
+        ],
+        "saint-étienne-de-tinée": [
+            "saint-étienne-de-tinée"
+        ],
+        "sainte-agnès": [
+            "sainte-agnès"
+        ],
+        "sainte-maxime": [
+            "sainte-maxime"
+        ],
+        "salernes": [
+            "salernes"
+        ],
+        "sallagriffon": [
+            "sallagriffon"
+        ],
+        "saorge": [
+            "saorge"
+        ],
+        "sauze": [
+            "sauze"
+        ],
+        "sigale": [
+            "sigale"
+        ],
+        "sospel": [
+            "sospel"
+        ],
+        "spéracèdes": [
+            "spéracèdes"
+        ],
+        "séranon": [
+            "séranon"
+        ],
+        "tanneron": [
+            "tanneron"
+        ],
+        "taradeau": [
+            "taradeau"
+        ],
+        "tende": [
+            "tende"
+        ],
+        "thiéry": [
+            "thiéry"
+        ],
+        "théoule-sur-mer": [
+            "théoule-sur-mer"
+        ],
+        "toudon": [
+            "toudon"
+        ],
+        "tourette-du-château": [
+            "tourette-du-château"
+        ],
+        "tournefort": [
+            "tournefort"
+        ],
+        "tourrette-levens": [
+            "tourrette-levens"
+        ],
+        "tourrettes": [
+            "tourrettes"
+        ],
+        "tourrettes-sur-loup": [
+            "tourrettes-sur-loup"
+        ],
+        "tourtour": [
+            "tourtour"
+        ],
+        "touët-de-l'escarène": [
+            "touët-de-l'escarène"
+        ],
+        "touët-sur-var": [
+            "touët-sur-var"
+        ],
+        "trans-en-provence": [
+            "trans-en-provence"
+        ],
+        "utelle": [
+            "utelle"
+        ],
+        "valbonne": [
+            "valbonne"
+        ],
+        "valdeblore": [
+            "valdeblore"
+        ],
+        "valderoure": [
+            "valderoure"
+        ],
+        "vallauris": [
+            "vallauris"
+        ],
+        "venanson": [
+            "venanson"
+        ],
+        "vence": [
+            "vence"
+        ],
+        "vidauban": [
+            "vidauban"
+        ],
+        "villars-sur-var": [
+            "villars-sur-var"
+        ],
+        "villecroze": [
+            "villecroze"
+        ],
+        "villefranche-sur-mer": [
+            "villefranche-sur-mer"
+        ],
+        "villeneuve-loubet": [
+            "villeneuve-loubet"
+        ],
+        "villeneuve-d'entraunes": [
+            "villeneuve-d'entraunes"
+        ],
+        "èze": [
+            "èze"
+        ]
+    },
+    "this": {
+        "dontcare": [
+            "dont care",
+            "doesnt matter",
+            "any fine",
+            "any noise",
+            "any of town",
+            "noise anything",
+            "any type",
+            "anything",
+            "any thing",
+            "what ever",
+            "does not matter",
+            "dont mind",
+            "dont know",
+            "any type",
+            "any kind",
+            "dont matter",
+            "dontcare"
+        ]
+    },
+    "name": {
+        "prezzo": [
+            "prezzo"
+        ],
+        "restaurant two two": [
+            "restaurant two two"
+        ],
+        "la margherita": [
+            "la margherita"
+        ],
+        "golden wok": [
+            "golden wok"
+        ],
+        "nandos": [
+            "nandos"
+        ],
+        "da vinci pizzeria": [
+            "da vinci pizzeria"
+        ],
+        "rice house": [
+            "rice house"
+        ],
+        "curry prince": [
+            "curry prince"
+        ],
+        "hk fusion": [
+            "hk fusion"
+        ],
+        "pizza hut city centre": [
+            "pizza hutt",
+            "pizza hut",
+            "pizza hut city centre"
+        ],
+        "venue": [
+            "venue"
+        ],
+        "chiquito restaurant bar": [
+            "chiquito",
+            "chiquito restaurant bar"
+        ],
+        "bloomsbury restaurant": [
+            "bloomsbury",
+            "bloomsbury restaurant"
+        ],
+        "the missing sock": [
+            "the missing sock"
+        ]
+    }
+}

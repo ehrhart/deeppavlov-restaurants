@@ -1,0 +1,117 @@
+{
+  "dataset_reader": {
+    "class_name": "custom_reader",
+    "data_path": "datasets/citymoove"
+  },
+  "dataset_iterator": {
+    "class_name": "custom_ner_iterator",
+    "dataset_path": "datasets/citymoove"
+  },
+  "chainer": {
+    "in": ["x"],
+    "in_y": ["y"],
+    "pipe": [
+      {
+        "in": ["x"],
+        "class_name": "lazy_tokenizer",
+        "out": ["x_tokens"]
+      },
+      {
+        "in": ["x_tokens"],
+        "class_name": "str_lower",
+        "out": ["x_lower"]
+      },
+      {
+        "in": ["x_lower"],
+        "id": "word_vocab",
+        "class_name": "simple_vocab",
+        "pad_with_zeros": true,
+        "fit_on": ["x_lower"],
+        "save_path": "slotfill/word.dict",
+        "load_path": "slotfill/word.dict",
+        "out": ["x_tok_ind"]
+      },
+      {
+        "class_name": "random_emb_mat",
+        "id": "embeddings",
+        "vocab_len": "#word_vocab.len",
+        "emb_dim": 100
+      },
+      {
+        "in": ["y"],
+        "id": "tag_vocab",
+        "class_name": "simple_vocab",
+        "pad_with_zeros": true,
+        "fit_on": ["y"],
+        "save_path": "slotfill/tag.dict",
+        "load_path": "slotfill/tag.dict",
+        "out": ["y_ind"]
+      },
+      {
+        "in": ["x_tokens"],
+        "class_name": "mask",
+        "out": ["mask"]
+      },
+      {
+        "in": ["x_tok_ind", "mask"],
+        "in_y": ["y_ind"],
+        "out": ["y_predicted"],
+        "class_name": "ner",
+        "main": true,
+        "token_emb_mat": "#embeddings.emb_mat",
+        "n_hidden_list": [64, 64],
+        "net_type": "cnn",
+        "n_tags": "#tag_vocab.len",
+        "save_path": "slotfill/model",
+        "load_path": "slotfill/model",
+        "embeddings_dropout": true,
+        "top_dropout": true,
+        "intra_layer_dropout": false,
+        "use_batch_norm": true,
+        "learning_rate": 1e-2,
+        "dropout_keep_prob": 0.5
+      },
+      {
+        "ref": "tag_vocab",
+        "in": ["y_predicted"],
+        "out": ["tags"]
+      }
+    ],
+    "out": ["x_tokens", "tags"]
+  },
+  "train": {
+    "epochs": 100,
+    "batch_size": 64,
+
+    "metrics": [
+      {
+        "name": "ner_f1",
+        "inputs": ["y", "tags"]
+      },
+      {
+        "name": "per_token_accuracy",
+        "inputs": ["y", "tags"]
+      }
+    ],
+    "validation_patience": 5,
+    "val_every_n_epochs": 5,
+
+    "log_every_n_batches": 100,
+    "show_examples": false,
+    "class_name": "nn_trainer",
+    "evaluation_targets": [
+      "valid",
+      "test"
+    ]
+  },
+  "metadata": {
+    "requirements": [
+      "{DEEPPAVLOV_PATH}/requirements/tf.txt"
+    ],
+    "labels": {
+      "telegram_utils": "NERModel",
+      "server_utils": "NER"
+    },
+    "imports": ["custom_reader", "custom_ner_iterator"]
+  }
+}
