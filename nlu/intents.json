@@ -4,8 +4,8 @@
     "data_path": "datasets/citymoove"
   },
   "dataset_iterator": {
-    "class_name": "custom_ner_iterator",
-    "dataset_path": "datasets/citymoove"
+    "class_name": "custom_intents_iterator",
+    "seed": 42
   },
   "chainer": {
     "in": [
@@ -39,7 +39,7 @@
         "out": "x_emb",
         "id": "my_embedder",
         "class_name": "fasttext",
-        "load_path": "{DOWNLOADS_PATH}/embeddings/dstc2_fastText_model.bin",
+        "load_path": "{DOWNLOADS_PATH}/embeddings/wiki.en.bin",
         "pad_zero": true
       },
       {
@@ -106,7 +106,7 @@
     ]
   },
   "train": {
-    "epochs": 1000,
+    "epochs": 10,
     "batch_size": 64,
     "metrics": [
       {
@@ -147,19 +147,17 @@
       "{DEEPPAVLOV_PATH}/requirements/fasttext.txt"
     ],
     "labels": {
-      "telegram_utils": "IntentModel",
-      "server_utils": "KerasIntentModel"
     },
     "download": [
       {
-        "url": "http://files.deeppavlov.ai/deeppavlov_data/embeddings/dstc2_fastText_model.bin",
+        "url": "http://files.deeppavlov.ai/deeppavlov_data/embeddings/wiki.en.bin",
         "subdir": "{DOWNLOADS_PATH}/embeddings"
       },
       {
-        "url": "http://files.deeppavlov.ai/deeppavlov_data/classifiers/intents_dstc2_v10.tar.gz",
+        "url": "http://files.deeppavlov.ai/deeppavlov_data/classifiers/intents_dstc2_v11.tar.gz",
         "subdir": "{MODELS_PATH}/classifiers"
       }
     ],
-    "imports": ["custom_reader", "custom_ner_iterator"]
+    "imports": ["custom_reader", "custom_intents_iterator"]
   }
 }

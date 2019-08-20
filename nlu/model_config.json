@@ -25,13 +25,6 @@
         "load_path": "{MODELS_PATH}/gobot_dstc2_best/word.dict"
       },
       {
-        "id": "restaurant_database",
-        "class_name": "sqlite_database",
-        "table_name": "mytable",
-        "primary_keys": ["name"],
-        "save_path": "{DOWNLOADS_PATH}/dstc2/resto.sqlite"
-      },
-      {
         "class_name": "custom_network",
         "load_path": "{MODELS_PATH}/gobot_dstc2_best/model",
         "save_path": "{MODELS_PATH}/gobot_dstc2_best/model",
@@ -62,7 +55,6 @@
         "word_vocab": "#token_vocab",
         "template_path": "datasets/citymoove/templates.txt",
         "template_type": "DualTemplate",
-        "database": "#restaurant_database",
         "api_call_action": "api_call",
         "use_action_mask": false,
         "slot_filler": {
