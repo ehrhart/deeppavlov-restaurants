@@ -144,6 +144,9 @@ $human_message_text: white;
       display: block;
     }
 
+  .message a {
+    word-break: break-word;
+  }
 
   .message p {
       margin-top: 0;
