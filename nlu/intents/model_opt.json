@@ -1,5 +1,5 @@
 {
-  "embedding_size": 100,
+  "embedding_size": 300,
   "n_classes": 28,
   "model_name": "cnn_model",
   "optimizer": "Adam",
@@ -22,8 +22,8 @@
     "inform_this",
     "request_postcode",
     "request_pricerange",
-    "request_food",
     "affirm",
+    "request_food",
     "request_area",
     "negate",
     "confirm_food",
@@ -39,6 +39,7 @@
     "reqmore"
   ],
   "text_size": null,
+  "padding": "pre",
   "in": [
     "x_emb"
   ],
@@ -49,8 +50,8 @@
     "y_pred_probas"
   ],
   "main": true,
-  "save_path": "./",
-  "load_path": "./",
+  "save_path": "intents/model",
+  "load_path": "intents/model",
   "kernel_sizes_cnn": [
     3,
     5,
@@ -62,6 +63,6 @@
   "dropout_rate": 0.5,
   "dense_size": 100,
   "mode": "train",
-  "epochs_done": 275,
-  "final_learning_rate": 2.840102243692792e-05
+  "epochs_done": 0,
+  "final_learning_rate": 0.10000000149011612
 }
