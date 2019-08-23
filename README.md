@@ -37,7 +37,14 @@
     python -m spacy download en_core_web_sm
     ```
 
-4. Now install the frontend dependencies:
+4. Download and install DeepPavlov datasets for intent classification:
+
+    ```
+    python -m deeppavlov download model_config.json
+    python -m deeppavlov download intents.json
+    ```
+
+5. Now install the frontend dependencies:
 
     ```
     cd ../chatbot
