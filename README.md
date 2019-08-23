@@ -52,7 +52,7 @@
 2. Launch the frontend server:
 
     ```bash
-    cd frontend
+    cd chatbot
     PORT=3000 npm start
     ```
 
