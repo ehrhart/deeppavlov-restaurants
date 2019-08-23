@@ -13,6 +13,7 @@ Cython==0.29.13
 DAWG-Python==0.7.2
 deeppavlov==0.5.0
 docopt==0.6.2
+-e git+https://github.com/deepmipt/fastText.git#egg=fastText==0.8.22
 flasgger==0.9.2
 Flask==1.1.1
 Flask-Cors==3.0.8
