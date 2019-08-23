@@ -78,3 +78,8 @@ python -m deeppavlov train intents.json
 ```bash
 python -m deeppavlov train ner.json
 ```
+
+# Docker
+
+docker build -t ehrhart/deeppavlov-restaurants/chatbot .
+docker run -p 3000:3000 -d ehrhart/deeppavlov-restaurants/chatbot
