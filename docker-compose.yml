@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nlu:
+    build: './nlu'
+    environment:
+      - DP_SETTINGS_PATH=./deeppavlov-settings
+  chatbot:
+    build: './chatbot'
