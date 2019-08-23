@@ -31,7 +31,13 @@
     pip install -r requirements.txt
     ```
 
-3. Now install the frontend dependencies:
+3. Download and install spacy en_core_web_sm:
+
+    ```
+    python -m spacy download en_core_web_sm
+    ```
+
+4. Now install the frontend dependencies:
 
     ```
     cd ../chatbot
